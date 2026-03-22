@@ -180,10 +180,11 @@ document.addEventListener('DOMContentLoaded', () => {
             formStatus.innerHTML = '<span style="color: var(--accent-color)">Sending...</span>';
 
             try {
-                const response = await fetch('/api/contact', {
+                const response = await fetch('https://api.web3forms.com/submit', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
+                        'Accept': 'application/json'
                     },
                     body: json
                 });
