@@ -7,6 +7,20 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 500); // Small delay for a more professional feel
     });
 
+    // Custom Cursor & Follower Tracking
+    const customCursor = document.querySelector('.custom-cursor');
+    const cursorFollower = document.querySelector('.cursor-follower');
+    if (customCursor && cursorFollower) {
+        document.addEventListener('mousemove', (e) => {
+            customCursor.style.left = e.clientX + 'px';
+            customCursor.style.top = e.clientY + 'px';
+            
+            // The follower uses CSS transition for the lag effect
+            cursorFollower.style.left = e.clientX + 'px';
+            cursorFollower.style.top = e.clientY + 'px';
+        });
+    }
+
     // Header Scroll Effect
     const header = document.querySelector('header');
     window.addEventListener('scroll', () => {

@@ -18,6 +18,43 @@
     --transition: all 0.3s ease-in-out;
 }
 
+/* Custom Cursor */
+.custom-cursor {
+    width: 32px;
+    height: 32px;
+    background-image: url('public/custom-cursor.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    pointer-events: none;
+    z-index: 10000;
+    transform: translate(0, 0);
+    display: none; 
+}
+
+.cursor-follower {
+    width: 10px;
+    height: 10px;
+    background-color: var(--text-primary);
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    z-index: 9999;
+    opacity: 0.5;
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease-out;
+    display: none;
+}
+
+@media (pointer: fine) {
+    body, a, button, input, textarea, .f-icon, .service-card, .project-card {
+        cursor: none !important;
+    }
+    .custom-cursor, .cursor-follower {
+        display: block;
+    }
+}
+
 /* Preloader Styles */
 .loader-wrapper {
     position: fixed;
