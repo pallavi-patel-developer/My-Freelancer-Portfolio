@@ -9,8 +9,8 @@
     --bg-color: #091413;
     --primary-color: #285A48;
     --accent-color: #408A71;
-    --text-primary: #B0E4CC;
-    --text-secondary: rgba(176, 228, 204, 0.7);
+    --text-primary: #f8fffc;
+    --text-secondary: rgba(255, 255, 255, 0.89);
     --glass-bg: rgba(40, 90, 72, 0.1);
     --glass-border: rgba(64, 138, 113, 0.3);
     --spacing: 2rem;
