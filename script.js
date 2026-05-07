@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const projects = [
         {
             title: "WTF- Where Food Begins",
-            desc: "Advanced object detection and recognition system using TensorFlow and React.",
+            desc: "WTF is the platform which came into existence with a simple yet powerful idea: to connect people through the universal language of incredible food.",
             tags: ["React", "Node.js", "MongoDB", "Zoho Payments"],
             image: "public/wtf-1.png",
             liveLink: "https://wtffoods.in/",
@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: "LAWYER Web Portfolio",
             desc: "A portfolio for lawyers which gives the information of his/her own practices , experiences which give more customers to them.",
-            tags: ["Next.js", "GPT-4", "Node.js"],
+            tags: ["Next.js", "Node.js"],
             image: "public/advocate.png",
             liveLink: "https://lawyer-web-portfolio.onrender.com/",
             githubLink: "https://github.com/pallavi-patel-developer/Lawyer-web-Portfolio"
