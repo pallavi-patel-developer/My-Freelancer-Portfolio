@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
             desc: "An elegant website which you can send multiple emails at once with stunning templates in it. You can upload csv files of emails or add emails manually.",
             tags: ["HTML", "CSS", "JavaScript"],
             image: "public/bulk.png",
-            liveLink: "https://bulk-email-sender-frontend.onrender.com/",
+            // liveLink: "https://bulk-email-sender-frontend.onrender.com/",
             githubLink: "https://github.com/pallavi-patel-developer/Bulk-Email-Send"
         },
         {
