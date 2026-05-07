@@ -82,23 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
             liveLink: "https://wtffoods.in/",
             githubLink: "https://github.com/pallavi-patel-developer/"
         },
-        {
-            title: "LAWYER Web Portfolio",
-            desc: "A portfolio for lawyers which gives the information of his/her own practices , experiences which give more customers to them.",
-            tags: ["Next.js", "Node.js"],
-            image: "public/advocate.png",
-            liveLink: "https://lawyer-web-portfolio.onrender.com/",
-            githubLink: "https://github.com/pallavi-patel-developer/Lawyer-web-Portfolio"
-        },
 
-        {
-            title: "Salon Portolfio",
-            desc: "A stunning portfolio for salons, with advance services with booking portal online.",
-            tags: ["Next", "JavaScript", "Tailwind CSS"],
-            image: "public/salon.png",
-            liveLink: "https://salon-eight-rho.vercel.app/",
-            githubLink: "https://github.com/pallavi-patel-developer/salon"
-        },
         {
             title: "Portfolio-Hub",
             desc: "PortfolioHub is a comprehensive platform designed for both Job Seekers (interns, freelancers, professionals) and Employers. It provides a seamless experience for building stunning portfolios, discovering top talent, and streamlining the hiring process.",
@@ -138,7 +122,32 @@ document.addEventListener('DOMContentLoaded', () => {
             image: "public/bulk.png",
             liveLink: "https://bulk-email-sender-frontend.onrender.com/",
             githubLink: "https://github.com/pallavi-patel-developer/Bulk-Email-Send"
-        }
+        },
+        {
+            title: "LAWYER Web Portfolio",
+            desc: "A portfolio for lawyers which gives the information of his/her own practices , experiences which give more customers to them.",
+            tags: ["Next.js", "Node.js"],
+            image: "public/advocate.png",
+            liveLink: "https://lawyer-web-portfolio.onrender.com/",
+            githubLink: "https://github.com/pallavi-patel-developer/Lawyer-web-Portfolio"
+        },
+
+        {
+            title: "Salon Portolfio",
+            desc: "A stunning portfolio for salons, with advance services with booking portal online.",
+            tags: ["Next", "JavaScript", "Tailwind CSS"],
+            image: "public/salon.png",
+            liveLink: "https://salon-eight-rho.vercel.app/",
+            githubLink: "https://github.com/pallavi-patel-developer/salon"
+        },
+        {
+            title: "REAL Estate Portfolio",
+            desc: "`Real Estate Portfolio` is designed as a clean and premium real estate website UI. It is built for showcasing properties, allowing users to explore listings, filter homes by their preferences, browse a visual gallery, and fill out buyer or seller inquiry forms.",
+            tags: ["Next.js", "Tailwind CSS", "JavaScript"],
+            image: "https://github.com/pallavi-patel-developer/REAL_ESTATE_PORTFOLIO/blob/main/public/real-estate.png?raw=true",
+            liveLink: "https://real-estate-portfolio-zeta.vercel.app",
+            githubLink: "https://github.com/pallavi-patel-developer/REAL_ESTATE_PORTFOLIO"
+        },
     ];
     const projectsContainer = document.getElementById('projects-container');
     if (projectsContainer) {
