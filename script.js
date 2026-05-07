@@ -1,27 +1,24 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Preloader
     const loader = document.getElementById('loader');
     window.addEventListener('load', () => {
         setTimeout(() => {
             loader.classList.add('fade-out');
-        }, 500); // Small delay for a more professional feel
+        }, 500);
     });
 
-    // Custom Cursor & Follower Tracking
+    // Custom Cursor
     const customCursor = document.querySelector('.custom-cursor');
     const cursorFollower = document.querySelector('.cursor-follower');
     if (customCursor && cursorFollower) {
         document.addEventListener('mousemove', (e) => {
             customCursor.style.left = e.clientX + 'px';
             customCursor.style.top = e.clientY + 'px';
-            
-            // The follower uses CSS transition for the lag effect
+
             cursorFollower.style.left = e.clientX + 'px';
             cursorFollower.style.top = e.clientY + 'px';
         });
     }
 
-    // Header Scroll Effect
     const header = document.querySelector('header');
     window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
@@ -31,17 +28,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Mobile Menu Toggle (Simplified)
     const menuBtn = document.getElementById('menu-btn');
     const navLinks = document.querySelector('.nav-links');
-    
+
     if (menuBtn) {
         menuBtn.addEventListener('click', () => {
             navLinks.classList.toggle('active');
             menuBtn.classList.toggle('active');
         });
 
-        // Close menu when link is clicked
         document.querySelectorAll('.nav-links a').forEach(link => {
             link.addEventListener('click', () => {
                 navLinks.classList.remove('active');
@@ -50,7 +45,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Scroll Reveal Animation with IntersectionObserver
     const revealOption = {
         threshold: 0.1,
         rootMargin: "0px 0px -50px 0px"
@@ -65,10 +59,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, revealOption);
 
-    // Initial elements
     document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
 
-    // Smooth Scrolling for Nav Links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
@@ -81,7 +73,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Project Data and Rendering
     const projects = [
         {
             title: "WTF- Where Food Begins",
@@ -118,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: "Portfolio-Hub",
             desc: "ML-driven market analysis tool with sentiment tracking and price forecasting.",
-            tags: ["HTML5","CSS3","JavaScript", "Node.js", "Express.js", "MongoDB", "Git" , "Cloudinary"],
+            tags: ["HTML5", "CSS3", "JavaScript", "Node.js", "Express.js", "MongoDB", "Git", "Cloudinary"],
             image: "public/portfoliohub.png",
             liveLink: "https://portpholio-front.onrender.com",
             githubLink: "https://github.com/pallavi-patel-developer/PortpholioHub"
@@ -126,15 +117,23 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: "Ai Real Time Log Analyzer",
             desc: "AI-powered cybersecurity suite for real-time threat detection and mitigation.",
-            tags: ["HTML5","CSS3","Python", "TensorFlow", "Resend API"],
+            tags: ["HTML5", "CSS3", "Python", "TensorFlow", "Resend API"],
             image: "public/ai.png",
             liveLink: "https://ai-realtime-logs-analyzer.onrender.com/",
             githubLink: "https://github.com/pallavi-patel-developer/Ai-Real-Time-Log-Analyzer"
         },
-         {
+        {
+            title: "Multi Tenant SaaS Super Panel",
+            desc: "The Super Panel is the core administrative dashboard for our Multi-Tenant SaaS ecosystem. It allows system administrators to oversee the entire platform, manage tenant subscriptions, monitor system health, and control global configurations.",
+            tags: ["SAAS", "Docker", "Nginix", "AWS", "MongoDB", "Node.js", "Next.js"],
+            image: "public/saas.png",
+            liveLink: "https://multi-tenant-panel-saas.vercel.app",
+            githubLink: "https://github.com/pallavi-patel-developer/multi-tenant-SaaS-super-panel"
+        },
+        {
             title: "Bundelkhand Chamber Of Commerce",
-            desc: "AI-powered cybersecurity suite for real-time threat detection and mitigation.",
-            tags: ["Next.js","Tailwind CSS","Express.js", "Nodemailer","MongoDB","Tawk.to Chatbot Api"],
+            desc: "Bundelkhand Chamber of Commerce website is a professional web portal which represents the information of services, sectors, members, media of the chambers of commerce in bundelkhand region. ",
+            tags: ["Next.js", "Tailwind CSS", "Express.js", "Nodemailer", "MongoDB", "Tawk.to Chatbot Api"],
             image: "public/bcci.png",
             liveLink: "https://www.bundelkhandchamberofcommerce.com/",
             githubLink: "https://github.com/pallavi-patel-developer/Bundelkhand-Chamber-Of-Commerce"
@@ -188,7 +187,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     body: json
                 });
-                
+
                 const result = await response.json();
                 if (response.status === 200) {
                     formStatus.innerHTML = '<span style="color: var(--accent-color)">Message sent successfully!</span>';
