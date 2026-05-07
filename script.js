@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             title: "Salon Portolfio",
-            desc: "Autonomous AI agent swarm for complex workflow automation and orchestration.",
+            desc: "A stunning portfolio for salons, with advance services with booking portal online.",
             tags: ["Next", "JavaScript", "Tailwind CSS"],
             image: "public/salon.png",
             liveLink: "https://salon-eight-rho.vercel.app/",
@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             title: "Portfolio-Hub",
-            desc: "ML-driven market analysis tool with sentiment tracking and price forecasting.",
+            desc: "PortfolioHub is a comprehensive platform designed for both Job Seekers (interns, freelancers, professionals) and Employers. It provides a seamless experience for building stunning portfolios, discovering top talent, and streamlining the hiring process.",
             tags: ["HTML5", "CSS3", "JavaScript", "Node.js", "Express.js", "MongoDB", "Git", "Cloudinary"],
             image: "public/portfoliohub.png",
             liveLink: "https://portpholio-front.onrender.com",
@@ -116,8 +116,8 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             title: "Ai Real Time Log Analyzer",
-            desc: "AI-powered cybersecurity suite for real-time threat detection and mitigation.",
-            tags: ["HTML5", "CSS3", "Python", "TensorFlow", "Resend API"],
+            desc: "A production-grade, real-time log monitoring and alerting system built with Python, Flask, and Resend. This tool scans your server logs in real-time and sends instant email alerts for critical errors or security threats, complete with full stack tracebacks.",
+            tags: ["HTML5", "CSS3", "Python", "Flask", "Resend API"],
             image: "public/ai.png",
             liveLink: "https://ai-realtime-logs-analyzer.onrender.com/",
             githubLink: "https://github.com/pallavi-patel-developer/Ai-Real-Time-Log-Analyzer"
