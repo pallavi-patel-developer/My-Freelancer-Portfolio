@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', () => {
             title: "REAL Estate Portfolio",
             desc: "`Real Estate Portfolio` is designed as a clean and premium real estate website UI. It is built for showcasing properties, allowing users to explore listings, filter homes by their preferences, browse a visual gallery, and fill out buyer or seller inquiry forms.",
             tags: ["Next.js", "Tailwind CSS", "JavaScript"],
-            image: "https://github.com/pallavi-patel-developer/REAL_ESTATE_PORTFOLIO/blob/main/public/real-estate.png?raw=true",
+            image: "public/realEstate.png",
             liveLink: "https://real-estate-portfolio-zeta.vercel.app",
             githubLink: "https://github.com/pallavi-patel-developer/REAL_ESTATE_PORTFOLIO"
         },
