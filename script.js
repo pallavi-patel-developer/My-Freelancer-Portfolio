@@ -77,27 +77,20 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: "WTF- Where Food Begins",
             desc: "Advanced object detection and recognition system using TensorFlow and React.",
-            tags: ["React", "Python", "TensorFlow"],
+            tags: ["React", "Node.js", "MongoDB", "Zoho Payments"],
             image: "public/wtf-1.png",
-            liveLink: "https://wtf-website-tan.vercel.app/",
+            liveLink: "https://wtffoods.in/",
             githubLink: "https://github.com/pallavi-patel-developer/"
         },
         {
             title: "LAWYER Web Portfolio",
-            desc: "Full-stack SaaS application for automated medical document transcription.",
+            desc: "A portfolio for lawyers which gives the information of his/her own practices , experiences which give more customers to them.",
             tags: ["Next.js", "GPT-4", "Node.js"],
             image: "public/advocate.png",
             liveLink: "https://lawyer-web-portfolio.onrender.com/",
             githubLink: "https://github.com/pallavi-patel-developer/Lawyer-web-Portfolio"
         },
-        {
-            title: "Bulk Email Sender",
-            desc: "Predictive maintenance dashboard with real-time anomaly detection.",
-            tags: ["HTML", "CSS", "JavaScript"],
-            image: "public/bulk.png",
-            liveLink: "https://bulk-email-sender-frontend.onrender.com/",
-            githubLink: "https://github.com/pallavi-patel-developer/Bulk-Email-Send"
-        },
+
         {
             title: "Salon Portolfio",
             desc: "A stunning portfolio for salons, with advance services with booking portal online.",
@@ -137,6 +130,14 @@ document.addEventListener('DOMContentLoaded', () => {
             image: "public/bcci.png",
             liveLink: "https://www.bundelkhandchamberofcommerce.com/",
             githubLink: "https://github.com/pallavi-patel-developer/Bundelkhand-Chamber-Of-Commerce"
+        },
+        {
+            title: "Bulk Email Sender",
+            desc: "An elegant website which you can send multiple emails at once with stunning templates in it. You can upload csv files of emails or add emails manually.",
+            tags: ["HTML", "CSS", "JavaScript"],
+            image: "public/bulk.png",
+            liveLink: "https://bulk-email-sender-frontend.onrender.com/",
+            githubLink: "https://github.com/pallavi-patel-developer/Bulk-Email-Send"
         }
     ];
     const projectsContainer = document.getElementById('projects-container');
