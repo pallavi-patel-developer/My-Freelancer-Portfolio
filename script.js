@@ -75,23 +75,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const projects = [
         {
-            title: "WTF- Where Food Begins",
-            desc: "WTF is the platform which came into existence with a simple yet powerful idea: to connect people through the universal language of incredible food.",
-            tags: ["React", "Node.js", "MongoDB", "Zoho Payments"],
-            image: "public/wtf-1.png",
-            liveLink: "https://wtffoods.in/",
-            githubLink: "https://github.com/pallavi-patel-developer/"
-        },
-
-        {
-            title: "Portfolio-Hub",
-            desc: "PortfolioHub is a comprehensive platform designed for both Job Seekers (interns, freelancers, professionals) and Employers. It provides a seamless experience for building stunning portfolios, discovering top talent, and streamlining the hiring process.",
-            tags: ["HTML5", "CSS3", "JavaScript", "Node.js", "Express.js", "MongoDB", "Git", "Cloudinary"],
-            image: "public/portfoliohub.png",
-            liveLink: "https://portpholio-front.onrender.com",
-            githubLink: "https://github.com/pallavi-patel-developer/PortpholioHub"
-        },
-        {
             title: "Ai Real Time Log Analyzer",
             desc: "A production-grade, real-time log monitoring and alerting system built with Python, Flask, and Resend. This tool scans your server logs in real-time and sends instant email alerts for critical errors or security threats, complete with full stack tracebacks.",
             tags: ["HTML5", "CSS3", "Python", "Flask", "Resend API"],
@@ -106,14 +89,6 @@ document.addEventListener('DOMContentLoaded', () => {
             image: "public/saas.png",
             liveLink: "https://multi-tenant-panel-saas.vercel.app",
             githubLink: "https://github.com/pallavi-patel-developer/multi-tenant-SaaS-super-panel"
-        },
-        {
-            title: "Bundelkhand Chamber Of Commerce",
-            desc: "Bundelkhand Chamber of Commerce website is a professional web portal which represents the information of services, sectors, members, media of the chambers of commerce in bundelkhand region. ",
-            tags: ["Next.js", "Tailwind CSS", "Express.js", "Nodemailer", "MongoDB", "Tawk.to Chatbot Api"],
-            image: "public/bcci.png",
-            liveLink: "https://www.bundelkhandchamberofcommerce.com/",
-            githubLink: "https://github.com/pallavi-patel-developer/Bundelkhand-Chamber-Of-Commerce"
         },
         {
             title: "Bulk Email Sender",
